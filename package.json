@@ -1,0 +1,50 @@
+{
+  "name": "eslint-config-idriss",
+  "version": "0.0.1",
+  "description": "ESLint preset to enforce code style from IDriss company.",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": "git@github.com:idriss-crypto/eslint-config-idriss.git",
+  "author": "IDriss.xyz",
+  "license": "GPL-3.0",
+  "main": "./eslint-config.cjs",
+  "exports": {
+    ".": "./eslint-config.cjs"
+  },
+  "keywords": [
+    "eslint",
+    "eslint config",
+    "idriss",
+    "code quality",
+    "linter"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "eslint-config.cjs"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.1.1",
+    "typescript": "^4.4.4"
+  },
+  "peerDependency": {
+    "@typescript-eslint/eslint-plugin": ">= 6",
+    "@typescript-eslint/parser": "> = 6",
+    "eslint": ">= 8",
+    "eslint-config-prettier": ">= 9",
+    "eslint-import-resolver-typescript": ">= 3",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-prettier": ">= 5",
+    "prettier": ">= 3",
+    "typescript": ">= 4"
+  }
+}
